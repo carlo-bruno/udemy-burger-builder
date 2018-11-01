@@ -8,7 +8,7 @@ const Burger = props => {
     .map(type => {
       return [...Array(props.ingredients[type])].map(
         (element, i) => {
-          console.log(type, element, i);
+          // console.log(type, element, i);
           // we get 'type' from Object.keys (ln.7-8)
           // element doesnt matter, but we need i (index)
           // for unique key & to know how many element we have
