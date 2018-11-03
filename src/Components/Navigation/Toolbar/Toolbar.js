@@ -2,6 +2,7 @@ import React from "react";
 
 import classes from "./Toolbar.module.css";
 import Logo from "../../Logo/Logo";
+import NavList from "../NavList/NavList";
 
 const Toolbar = () => {
   return (
@@ -9,7 +10,7 @@ const Toolbar = () => {
       <div>MENU</div>
       <Logo />
       <nav>
-        <ul>...</ul>
+        <NavList />
       </nav>
     </header>
   );
