@@ -7,7 +7,9 @@ import NavList from "../NavList/NavList";
 const SideDrawer = props => {
   return (
     <div className={classes.SideDrawer}>
-      <Logo />
+      <div className={classes.Logo}>
+        <Logo />
+      </div>
       <nav>
         <NavList />
       </nav>
